@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import { Button } from "./components/ui/button";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,6 +27,9 @@ function App() {
         </p>
         <div className="flex h-[100px] w-full items-center justify-center bg-slate-800">
           <p>Test integrate tailwindcss</p>
+        </div>
+        <div className=" flex h-[100px] w-full items-center justify-center bg-white">
+          <Button>Test button</Button>
         </div>
       </div>
       <p className="read-the-docs">
